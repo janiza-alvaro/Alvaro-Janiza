@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url('../assets/BG5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+}
+.businessAbout
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    text-indent: 50px;
+}
+.developerAbout .developer{
+    display:block;
+    height:350px;
+    width:auto;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.developerAbout
+{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+@media screen and (max-width: 800px){
+    .developerAbout .developer{
+        height:250px;
+        width:auto;
+        margin-bottom:20px;
+    }
+ }
